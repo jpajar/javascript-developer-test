@@ -10,7 +10,7 @@ const getArnieQuotes = async urls => {
       try {
         return await getResult(url);
       } catch (err) {
-        throw err;
+        console.log(err);
       }
     })
   );
